@@ -1,0 +1,81 @@
+<!--  create a search bar that display live search results as users type, updating the results without requiring a full page reload -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            width: 100%;
+            height: 100vh;
+            box-sizing: border-box;
+        }
+        #main {
+            height: 100%;
+            width: 100%;
+            background-color: #f1f1f1;
+            text-align: center;
+            /* margin-top: 50px; */
+        }
+        .container{
+            padding: 10vw 25vw;
+        }
+        input{
+            width: 100%;
+            padding: 12px 22px;
+             font-size: 30px;
+             font-weight: 700;
+            border-radius: 10px;
+            border: 1px solid #ccc;
+            outline: royalblue;
+        }
+        .img{
+            width: 7vw;
+            height: 7vw;
+            background-color: #ccc;
+            border-radius: 50%;
+            border: 2px solid #dadada;
+            overflow: hidden;
+        }
+        .img img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+        .person
+        {    width: fit-content;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .people{
+            margin: 30px;
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="main">
+      <div class="container">
+        <input type="text" placeholder="search....">
+        <div class="people">
+            <!-- <div class="person">
+                <div class="img">
+                    <img src="https://images.unsplash.com/photo-1678557856807-7ae6ff6893d1?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGJveXxlbnwwfHwwfHx8MA%3D%3D" alt="">
+                </div>
+                <h4>shushant kumar</h4>
+            </div> -->
+           
+            
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

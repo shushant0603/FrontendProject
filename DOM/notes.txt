@@ -1,0 +1,3 @@
+DOM=DOCUMENT OBJECT MODEL.
+JO BHI HUM WEBSITE PR DEKHTE HAI WO SAB BODY TAG MAI BNATE HAI.
+dom acutually hota hai HTML tag ka full control in js
